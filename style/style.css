@@ -1,0 +1,202 @@
+:root{
+    --font-family: monospace;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.listNav{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.listNav >li {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.listNav >li>a {
+    color:rgb(162, 243, 138);
+    font-family: var(--font-family); 
+    font-size: xx-large;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.sectionVideo{
+width: 100%;
+height: auto;
+position: relative;
+overflow: hidden;
+}
+
+video{
+    width: 100%;
+}
+
+.heroText{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: var(--font-family);
+    color: aliceblue;
+    backdrop-filter: brightness(0.4);
+    padding-left: 50px;
+    padding-bottom: 180px;
+}
+#title{
+    font-size: 100px;
+}
+#title2{
+    font-size: 100px;
+}
+#subtitle{
+    font-size: 35px;
+    font-weight: 100;
+}
+.heroText > button{
+     font-size: 30px;
+     padding: 20px;
+     margin-top: 20px;
+     background-color: #f0f8ff26; 
+     color: rgb(243, 51, 217);
+}
+
+.backgroundMain{
+    background-image: linear-gradient(rgb(0 0 0 / 95%), rgb(0 0 0 / 92%)), url(https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);  
+    background-size: contain;
+}
+
+.titleServices{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(242, 4, 250);
+    font-family: var(--font-family); 
+    padding: 30px 0px;
+}
+
+/* .imageLevel{
+    height: 500px;
+} */
+
+.itemService1, .itemService2, .itemService3 {
+    font-size: 40px;
+    color: white;
+    font-family: var(--font-family); 
+    padding: 35px 0px;
+}
+
+.containerServices{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.factsTitle{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(250, 234, 4);
+    font-family: var(--font-family); 
+    padding: 30px 0px;
+}
+.factsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fact{
+    height: 300px;
+    width: 350px;
+    font-size: 25px;
+    font-family: var(--font-family);
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.fact1{
+    background-color: rgba(110, 10, 110, 0.65);
+}
+.fact2{
+    background-color: rgba(4, 121, 14, 0.616);
+}
+.fact3{
+    background-color: rgba(8, 92, 88, 0.582);
+}
+.fact4{
+    background-color: rgba(167, 86, 11, 0.616);
+}
+
+.backgroundFilterForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formTitle{
+    font-family: var(--font-family);
+    font-size: 50px;
+    margin: 40px 0pX;
+    color: rgb(160, 241, 67);
+}
+.formHome{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-size: 30px;
+    color: rgb(205, 194, 212);
+}
+.labelFormHome{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonFormHome{
+     font-size: 30px;
+     background-color: #f0f8ff26; 
+     color: rgb(243, 51, 217);
+     margin-top: 30px;
+     margin-bottom: 40px;
+     padding: 20px;
+     margin-top: 20px;
+     width: 600px;
+}
+
+.labelFormHome >input, .comment {
+     padding: 10px;
+     margin: 10px 0px;
+     background-color: rgb(228, 241, 207);
+     
+}
+footer{
+    background-color: black;
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.listFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+.listFooter >li >a{
+    color:rgb(185, 246, 167);
+    font-family: var(--font-family); 
+    font-size: xx-large;
+    text-decoration: none;
+}
